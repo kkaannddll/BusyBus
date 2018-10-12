@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.box1 {
+  background-color: white;
+  width: 376px;
+  border: 1px solid black;
+}
+
+
+
+.StatusBar { position:absolute; top: 0px; left: 0px; z-index: 3; }
+.map { position:absolute; top: 20px; left: 0px; z-index: 1; }
+.Busstop { position:absolute; top: 70px; left: 170px; z-index: 2; }
+
+.menu{
+  height: 28px;
+  width: 28px;
+  background-color: #0A5FDE;
+  border-radius: 50%;
+}
+
+.fa-ellipsis-v{
+  color: white;
+  transform: rotate(90deg);
+}
+
+
+.fa-plus{
+  float: right;
+  color: #0A5FDE;
+  height: 16px;
+  width: 16px;
+  margin-right: 26.5px;
+
+}
+
+.buslist h2{
+  float: left;
+  font-size: 17px;
+  letter-spacing: 0.0145455em;
+}
+
+.busnumber{
+  font-size: 36px;
+  letter-spacing: 0.0145455em;
+  float: left;
+  margin: 23px;
+}
+
+.Busstop{
+  float: left;
+}
+
+.icon{
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3,{
+  color: black;
+  font-family: Roboto;
+}
+
+}
+
+h2, h4{
+  display: inline-block;
+}
+
+h1{
+  font-weight: bold;
+  line-height: 41px;
+  font-size: 24px;
+  letter-spacing: 0.0120588em;
+  margin-left: 20px;
+  margin-top: 250px;
+
+}
+
+h2{
+  font-family: Roboto;
+  font-size: 17px;
+  margin-left: 24px;
+}
+
+
+h3{
+  font-size: 17px;
+  letter-spacing: 0.0145455em;
+}
+
+
+h4{
+  float: right;
+  font-family: Roboto;
+  font-size: 17px;
+  margin-right: 17px;
+}
+
+p{
+  font-size: 13px;
+  color: #8A8A8F;
+  font-family: Roboto;
+}
