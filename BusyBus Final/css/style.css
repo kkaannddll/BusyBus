@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1, .button{
+  display: inline-block;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  background-color: white;
+}
+
+.container{
+  margin: 0 auto;
+  width: 376px;
+}
+a{
+  text-decoration: none;
+}
+
+.map {
+  background-image: url(../images/map.png);
+  background-size: cover;
+  height: 207px;
+}
+nav{
+  margin-left: 16px;
+  border-bottom: 1px solid lightgrey;
+}
+
+footer{
+  border-top: 1px solid lightgrey;
+}
+.Busstop {
+  padding-left: 169px;
+  padding-top: 50px;
+  float: left;
+}
+
+.menu{
+  height: 28px;
+  width: 28px;
+  background-color: #0A5FDE;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.button{
+  height: 28px;
+  width: 28px;
+  padding-left: 35px;
+}
+
+/* .fa-ellipsis-v{
+  color: white;
+  transform: rotate(90deg);
+
+}
+
+*/
+
+.row{
+  clear: both;
+  margin-left: 16px;
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+}
+.fa-plus{
+  float: right;
+  color: #0A5FDE;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  padding-bottom: 0px;
+
+}
+
+.buslist h2{
+  float: left;
+  font-size: 17px;
+  letter-spacing: 0.0145455em;
+}
+
+.busnumber{
+  font-size: 36px;
+  float: left;
+  text-align: left;
+  width: 20%;
+}
+
+.buslist{
+  height: 288px;
+  overflow: scroll;
+}
+
+.left{
+float: left;
+text-align: left;
+width: 60%;
+padding-bottom: 10px;
+
+}
+
+.right{
+float: right;
+width: 15%;
+padding-top: 15px;
+}
+
+.icon{
+  display: inline-block;
+  text-align: center;
+  width: 23%;
+  padding-top: 10px;
+}
+
+.Today{
+  margin-left: 21px;
+}
+
+.Search{
+  float: right;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+h2, h4{
+  display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 24px;
+  padding: 16px;
+  display: inline
+  margin-top: 11px;
+}
+
+h2{
+  font-size: 17px;
+  margin-left: 24px;
+
+
+}
+
+
+h3{
+  font-size: 17px;
+
+
+}
+
+
+h4{
+  float: right;
+  font-size: 17px;
+  margin-right: 17px;
+}
+
+p{
+  font-size: 13px;
+  color: #8A8A8F;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
